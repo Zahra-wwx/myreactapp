@@ -45,6 +45,3 @@ jobs:
           
           - name: Deploy React App to Surge
             run: surge ./build myreactapp_002.surge.sh --token ${{secrets.SURGE_TOKEN}}
-          run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
